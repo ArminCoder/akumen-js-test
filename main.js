@@ -12,7 +12,7 @@ function check (arr, expectedCheck) {
     let stopChecking = false
     
     arr.forEach((item, index) => {
-        if (index == 0 || stopChecking) {
+        if (index === 0 || stopChecking) {
             return
         }
         let currentCase = '';
